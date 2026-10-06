@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Cryptic Communication Envelope",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "protocol",
+    "message_id",
+    "source",
+    "destination",
+    "kind",
+    "oracle",
+    "payload",
+    "nonce",
+    "created_at",
+    "expires_at"
+  ],
+  "properties": {
+    "protocol": {
+      "const": "CRYPTIC-COMM/1"
+    },
+    "message_id": {
+      "type": "string",
+      "minLength": 8
+    },
+    "source": {
+      "type": "string",
+      "minLength": 1
+    },
+    "destination": {
+      "type": "string",
+      "minLength": 1
+    },
+    "kind": {
+      "enum": [
+        "OBSERVATION",
+        "HYPOTHESIS",
+        "CHALLENGE",
+        "COUNTEREXAMPLE",
+        "FORGE_PROPOSAL",
+        "VERIFICATION",
+        "REPRODUCTION",
+        "PROMOTION_REQUEST"
+      ]
+    },
+    "oracle": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "protocol",
+        "t",
+        "omega",
+        "theta"
+      ],
+      "properties": {
+        "protocol": {
+          "const": "KW-ORACLE/1"
+        },
+        "t": {
+          "type": "number"
+        },
+        "omega": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          },
+          "minItems": 1
+        },
+        "theta": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          },
+          "minItems": 1
+        },
+        "wrapped": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "payload": {
+      "type": "object"
+    },
+    "parent_evidence_hash": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[a-fA-F0-9]{64}$"
+    },
+    "nonce": {
+      "type": "string",
+      "minLength": 16
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "expires_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}
