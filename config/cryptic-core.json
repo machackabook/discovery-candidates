@@ -1,0 +1,49 @@
+{
+  "protocol": "CRYPTIC-CORE/1",
+  "oracle": "KW-ORACLE/1",
+  "namespace": "cryptic.discovery",
+  "repo_allowlist": [
+    "machackabook/discovery-candidates",
+    "machackabook/living-system-runtime",
+    "NexusCryptic/The-Ledger"
+  ],
+  "public_surface": {
+    "mode": "read-only-evidence",
+    "blue_line": true,
+    "no_refresh": true
+  },
+  "compute": {
+    "isolation_required": true,
+    "allowed_targets": [
+      "jetson",
+      "vm",
+      "container"
+    ],
+    "network_default": "deny"
+  },
+  "verifier_quorum": {
+    "minimum": 2,
+    "required_for_math": [
+      "tests",
+      "wolfram"
+    ],
+    "required_for_code": [
+      "tests",
+      "static-analysis"
+    ]
+  },
+  "dataset_labels": [
+    "KNOWN",
+    "COUNTEREXAMPLE",
+    "FAILED_MUTATION",
+    "SURVIVED_TEST",
+    "PROVED",
+    "REPRODUCED",
+    "INDEPENDENTLY_VERIFIED"
+  ],
+  "authority": {
+    "auto_merge": false,
+    "auto_expand_allowlist": false,
+    "secret_access": false
+  }
+}
