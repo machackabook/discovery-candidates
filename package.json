@@ -6,6 +6,10 @@
   "scripts": {
     "oracle": "node src/oracle.js",
     "break": "node src/breaker.js",
-    "test": "node --test test/*.test.js"
+    "test": "node --test test/*.test.js",
+    "lab": "node src/live-lab.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
   }
 }
