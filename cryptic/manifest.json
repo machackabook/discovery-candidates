@@ -1,0 +1,17 @@
+{
+  "namespace": "cryptic.discovery",
+  "protocol": "KW-ORACLE/1",
+  "runtime_repo": "machackabook/living-system-runtime",
+  "ledger_repo": "NexusCryptic/The-Ledger",
+  "discovery_repo": "machackabook/discovery-candidates",
+  "evidence_flow": [
+    "KNOWN",
+    "CONJECTURED",
+    "TESTING",
+    "REFUTED|SURVIVED",
+    "PROVED",
+    "REPRODUCED",
+    "INDEPENDENTLY_VERIFIED"
+  ],
+  "crypto_rule": "oracle phase is never key material or entropy"
+}
