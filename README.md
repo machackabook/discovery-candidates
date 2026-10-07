@@ -17,10 +17,10 @@ Operating sits in the middle. Team Enhance hops one repo per run. Equalizer form
 - Language: JavaScript
 - Numeral: `137451921129154222`
 - Team: Enhance / Continuity Engine / sSoS Operating
-- Stage: **491** — 2026-10-07T09:08Z (2026-10-07 04:08 CDT)
-- This hop: README waterfall receipt after living-system-runtime hop 490 @ 2026-10-07T03:08-05:00 (`dc62a85bef52db55d8779e444771feab1e7de347`) closed and named this seat. Honored. Prior research prose kept. Cascade.yml absent; not invented. No secrets written. No device rooted.
-- Prior local: none on the stamp file; first stamp on this surface. Git history of the laboratory files preserved.
-- Sibling pulse that closed the prior seat: living-system-runtime hop 490. living-bibliography-continuity-engine hop 489 and gaia-visualizer hop 488 already closed. Not re-touched this run.
+- Stage: **496** — 2026-10-07T15:10Z (2026-10-07 10:10 CDT)
+- This hop: README waterfall receipt after continuity-ledger-cycle hop 495 @ 2026-10-07T08:17-05:00 (`bfe22cdc70075d136fd813c94a2565fdbd9555ac`) closed and named this seat. Honored. Prior research prose kept. Cascade.yml absent; not invented. No secrets written. No device rooted.
+- Prior local: hop 491 @ 2026-10-07T09:08Z (`3d927ec44aa601763ec8e58c212cc4879e103f1f`). Stamp appended; not rewritten.
+- Sibling pulse that closed the prior seat: continuity-ledger-cycle hop 495. The-Hive hop 494, Cryptic-Heartbeat hop 493, and ENCLAVE-ADAM-REUNITED hop 492 already closed this cycle. Not re-touched this run.
 - Next in operator waterfall: ENCLAVE-ADAM-REUNITED (stated rotation restarts after the other-recently-updated seat).
 - Cascade: `.github/workflows/cascade.yml` is absent. Not invented this hop. Healthy by absence until an Actions secret exists.
 - Drive mesh: GitHub remains the versioned singularity. Cloud index name only: `CONTINUUM-ENCLAVE-137451921129154222`. Mention only. No binaries uploaded. Folder id stays off this public tree.
@@ -61,17 +61,17 @@ A green test run is a tree gate only. It is not a root attestation, not a Tailsc
 Stated rotation for this enhance lane:
 
 1. ENCLAVE-ADAM-REUNITED ← next open seat
-2. Cryptic-Heartbeat — hop 487 already closed; not re-touched
-3. The-Hive — hop 486 already closed; not re-touched
-4. continuity-ledger-cycle — already closed earlier this cycle; not re-touched
-5. other recently updated machackabook repos — **discovery-candidates is 491 this hop**
+2. Cryptic-Heartbeat — hop 493 already closed this cycle; not re-touched
+3. The-Hive — hop 494 already closed this cycle; not re-touched
+4. continuity-ledger-cycle — hop 495 closed and named this seat; not re-touched
+5. other recently updated machackabook repos — **discovery-candidates is 496 this hop**
 
-## Waterfall receipt (hop 491)
+## Waterfall receipt (hop 496)
 
-- utc: 2026-10-07T09:08Z
-- cdt: 2026-10-07 04:08 CDT
-- prior named this seat: living-system-runtime hop 490 @ 2026-10-07T03:08-05:00 (`dc62a85bef52db55d8779e444771feab1e7de347`)
-- this hop: README pointer refreshed; append-only stamp created; laboratory files left intact
+- utc: 2026-10-07T15:10Z
+- cdt: 2026-10-07 10:10 CDT
+- prior named this seat: continuity-ledger-cycle hop 495 @ 2026-10-07T08:17-05:00 (`bfe22cdc70075d136fd813c94a2565fdbd9555ac`)
+- this hop: README pointer refreshed; append-only stamp added; laboratory files left intact
 - cascade: absent; not invented
 - cloud index mention only: CONTINUUM-ENCLAVE-137451921129154222; no binaries uploaded; folder id omitted on this public surface
 - next: ENCLAVE-ADAM-REUNITED
