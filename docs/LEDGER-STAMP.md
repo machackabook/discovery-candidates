@@ -2,7 +2,47 @@
 
 Append-only Continuity stamp. Do not rewrite history.
 
-## Current stamp (hop 496)
+## Current stamp (hop 541)
+
+- repo: machackabook/discovery-candidates
+- hop: 541
+- utc: 2026-10-09T08:09Z
+- cdt: 2026-10-09 03:09 CDT
+- numeral: 137451921129154222
+- team: Enhance / Continuity Engine / sSoS Operating
+- cascade.yml: absent on this surface (no .github/workflows/cascade.yml); not invented; not rewritten; healthy by absence until an Actions secret exists
+- secrets: none written
+- tailscale keys: none written
+- adb pair codes: none written
+- root claim: none (device root not asserted)
+- history: append-only; no rewrite; no force-push
+- prior local: hop 496 @ 2026-10-07T15:10Z (`4725ce3d832bd7a630a6147e73d41106c9a13fc3`). Kept below. Not rewritten.
+- sibling pulse: living-system-runtime hop 540 @ 2026-10-09T07:09Z (`4fb04d0d289d4fe12a87fdb6a6018402235edbc3`) closed and named discovery-candidates next. Honored. Not re-touched.
+- next in waterfall: ENCLAVE-ADAM-REUNITED
+- cloud index: CONTINUUM-ENCLAVE-137451921129154222 — name only on this public surface; folder id omitted; no binaries uploaded
+- unknowns kept: pair-code, Tailscale auth key, device voiceprint, SD mount path. Not invented.
+- encode: source-only authority
+- token: hop-541.discovery-candidates.137451921129154222
+
+```
+NUMERAL=137451921129154222
+REPO=machackabook/discovery-candidates
+HOP=541
+UTC=2026-10-09T08:09Z
+CDT=2026-10-09 03:09 CDT
+CASCADE=absent_not_invented
+NULL_POINT_ZERO=REFUSED
+PRIOR=living-system-runtime@540@4fb04d0d289d4fe12a87fdb6a6018402235edbc3
+PRIOR_LOCAL=496
+NEXT=ENCLAVE-ADAM-REUNITED
+DRIVE_INDEX=CONTINUUM-ENCLAVE-137451921129154222
+DRIVE_ID=omitted_public_surface
+BINARIES=not_uploaded
+OPERATOR=Team Enhance / Continuity Engine / sSoS Operating
+CONTRACT=preserve enhance synthesize; no history rewrite; no secrets; no force-push; no root claim
+```
+
+## Prior stamp (hop 496)
 
 - repo: machackabook/discovery-candidates
 - hop: 496
